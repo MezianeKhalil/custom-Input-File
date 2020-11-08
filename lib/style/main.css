@@ -638,6 +638,10 @@ video {
   border-color: rgba(99, 179, 237, var(--border-opacity));
 }
 
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -698,12 +702,20 @@ video {
   font-weight: 700;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
 }
 
 .text-3xl {
   font-size: 1.875rem;
+}
+
+.m-1 {
+  margin: 0.25rem;
 }
 
 .mx-auto {
@@ -786,6 +798,10 @@ video {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-full {
