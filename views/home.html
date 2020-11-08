@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom input file</title>
+    <link rel="stylesheet" href="../lib/style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body class="font-Poppins px-8 lg:px-24 bg-blue-100">
+    <main>
+        <section class="py-8 flex justify-items-center">
+            <div class="container mx-auto w-full md:w-9/12 lg:w-1/2  bg-white py-4 px-8 rounded-3xl shadow-2xl">
+                <p id="error" class="p-2 bg-red-600 font-medium hidden text-white text-center capitalize mb-4"></p>
+                <h2 class="text-center text-3xl mb-2 capitalize font-bold text-gray-900">upload your files</h2>
+                <p class="text-gray-600 text-center mb-8 capitalize">supports: png,jpg,gif...</p>
+                <form>
+                    <input type="file" id="fileInput" aria-label="input file" class="hidden" multiple>
+                    <label for="fileInput" class="border-2 border-dashed border-blue-400 mb-8 p-4 rounded-2xl flex flex-col place-items-center justify-items-center cursor-pointer">
+                        <img src="../lib/images/clip-259.png" draggable="false" alt="folder" width="80" class="mx-auto mt-8 mb-3">
+                        <p class="text-sm text-gray-600 mb-5 capitalize">browse your files</p>
+                    </label>
+                </form>
+                <div class="flex flex-wrap justify-items-center" id="showSelected">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../lib/scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "customInputFile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "npx tailwindcss build src/main.css -o lib/style/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.9.6"
+  }
+}
